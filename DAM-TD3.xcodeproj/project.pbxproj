@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37C647F01E2CF1E800CA390B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C647EF1E2CF1E800CA390B /* AppDelegate.swift */; };
+		37C647F21E2CF1E800CA390B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C647F11E2CF1E800CA390B /* FirstViewController.swift */; };
+		37C647F41E2CF1E900CA390B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C647F31E2CF1E900CA390B /* SecondViewController.swift */; };
+		37C647F71E2CF1E900CA390B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C647F51E2CF1E900CA390B /* Main.storyboard */; };
+		37C647FC1E2CF1E900CA390B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C647FA1E2CF1E900CA390B /* LaunchScreen.storyboard */; };
+		37C648071E2CF1E900CA390B /* DAM_TD3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C648061E2CF1E900CA390B /* DAM_TD3Tests.swift */; };
+		37C648121E2CF1E900CA390B /* DAM_TD3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C648111E2CF1E900CA390B /* DAM_TD3UITests.swift */; };
+		37C648221E2CFA3600CA390B /* WebsitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C648211E2CFA3600CA390B /* WebsitesTableViewController.swift */; };
+		37C648241E2D012600CA390B /* RemoteImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C648231E2D012600CA390B /* RemoteImageController.swift */; };
+		37C648261E2D703C00CA390B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C648251E2D703C00CA390B /* CustomCell.swift */; };
+		44867B980B75A23F7F5A2752 /* Pods_DAM_TD3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F51A064DF145A3247A3DF /* Pods_DAM_TD3Tests.framework */; };
+		ABA4F9521E38B43100E509EF /* CustomCellParties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4F9511E38B43100E509EF /* CustomCellParties.swift */; };
+		ABEB128D1E32159E00CF61E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEB128C1E32159E00CF61E7 /* Assets.xcassets */; };
+		AFBA054CDEBCC00C3D5659DF /* Pods_DAM_TD3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97356993C28B42E25FB88865 /* Pods_DAM_TD3UITests.framework */; };
+		B6366BE459BD04AE30A3A546 /* Pods_DAM_TD3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA68482B9B435ECAE79F7723 /* Pods_DAM_TD3.framework */; };
+		D34072191E2FED9800A380DD /* MyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34072181E2FED9800A380DD /* MyWebViewController.swift */; };
+		D3D813B51E36392B005BD1EC /* PartiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D813B41E36392B005BD1EC /* PartiesController.swift */; };
+		D3D813B91E364AA1005BD1EC /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D813B81E364AA1005BD1EC /* SWXMLHash.swift */; };
+		D3F6969D1E3663B9003CAF9B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F6969C1E3663B9003CAF9B /* Event.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C648031E2CF1E900CA390B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C647E41E2CF1E800CA390B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C647EB1E2CF1E800CA390B;
+			remoteInfo = "DAM-TD3";
+		};
+		37C6480E1E2CF1E900CA390B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C647E41E2CF1E800CA390B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C647EB1E2CF1E800CA390B;
+			remoteInfo = "DAM-TD3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0794916C97EB7BBD9E13561B /* Pods-DAM-TD3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM-TD3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DAM-TD3UITests/Pods-DAM-TD3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16EEA2E268B3FF28B88CA41C /* Pods-DAM-TD3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM-TD3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DAM-TD3Tests/Pods-DAM-TD3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C5422A5ED23D70BC237A3E1 /* Pods-DAM-TD3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM-TD3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DAM-TD3UITests/Pods-DAM-TD3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E5F8DBB01DD904C66E1AAA1 /* Pods-DAM-TD3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM-TD3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DAM-TD3/Pods-DAM-TD3.debug.xcconfig"; sourceTree = "<group>"; };
+		37C647EC1E2CF1E800CA390B /* DAM-TD3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAM-TD3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C647EF1E2CF1E800CA390B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37C647F11E2CF1E800CA390B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		37C647F31E2CF1E900CA390B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		37C647F61E2CF1E900CA390B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37C647FB1E2CF1E900CA390B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37C647FD1E2CF1E900CA390B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C648021E2CF1E900CA390B /* DAM-TD3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAM-TD3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C648061E2CF1E900CA390B /* DAM_TD3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAM_TD3Tests.swift; sourceTree = "<group>"; };
+		37C648081E2CF1E900CA390B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C6480D1E2CF1E900CA390B /* DAM-TD3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAM-TD3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C648111E2CF1E900CA390B /* DAM_TD3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAM_TD3UITests.swift; sourceTree = "<group>"; };
+		37C648131E2CF1E900CA390B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C648211E2CFA3600CA390B /* WebsitesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebsitesTableViewController.swift; path = ../WebsitesTableViewController.swift; sourceTree = "<group>"; };
+		37C648231E2D012600CA390B /* RemoteImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImageController.swift; sourceTree = "<group>"; };
+		37C648251E2D703C00CA390B /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		571F51A064DF145A3247A3DF /* Pods_DAM_TD3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAM_TD3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B25EBB1E1EA65B1F4880C04 /* Pods-DAM-TD3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM-TD3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DAM-TD3Tests/Pods-DAM-TD3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		72404C199D08D86B2F4E0CA0 /* Pods-DAM-TD3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM-TD3.release.xcconfig"; path = "Pods/Target Support Files/Pods-DAM-TD3/Pods-DAM-TD3.release.xcconfig"; sourceTree = "<group>"; };
+		97356993C28B42E25FB88865 /* Pods_DAM_TD3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAM_TD3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA4F9511E38B43100E509EF /* CustomCellParties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellParties.swift; sourceTree = "<group>"; };
+		ABEB128C1E32159E00CF61E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA68482B9B435ECAE79F7723 /* Pods_DAM_TD3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAM_TD3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34072181E2FED9800A380DD /* MyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebViewController.swift; sourceTree = "<group>"; };
+		D3D813B41E36392B005BD1EC /* PartiesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiesController.swift; sourceTree = "<group>"; };
+		D3D813B81E364AA1005BD1EC /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		D3F6969C1E3663B9003CAF9B /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37C647E91E2CF1E800CA390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6366BE459BD04AE30A3A546 /* Pods_DAM_TD3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C647FF1E2CF1E900CA390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44867B980B75A23F7F5A2752 /* Pods_DAM_TD3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C6480A1E2CF1E900CA390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBA054CDEBCC00C3D5659DF /* Pods_DAM_TD3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37C647E31E2CF1E800CA390B = {
+			isa = PBXGroup;
+			children = (
+				37C647EE1E2CF1E800CA390B /* DAM-TD3 */,
+				37C648051E2CF1E900CA390B /* DAM-TD3Tests */,
+				37C648101E2CF1E900CA390B /* DAM-TD3UITests */,
+				37C647ED1E2CF1E800CA390B /* Products */,
+				83F8547A766E40598E49F173 /* Pods */,
+				791E7B2305E4BA95FAD2B02F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37C647ED1E2CF1E800CA390B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37C647EC1E2CF1E800CA390B /* DAM-TD3.app */,
+				37C648021E2CF1E900CA390B /* DAM-TD3Tests.xctest */,
+				37C6480D1E2CF1E900CA390B /* DAM-TD3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37C647EE1E2CF1E800CA390B /* DAM-TD3 */ = {
+			isa = PBXGroup;
+			children = (
+				37C648211E2CFA3600CA390B /* WebsitesTableViewController.swift */,
+				ABEB128C1E32159E00CF61E7 /* Assets.xcassets */,
+				37C647EF1E2CF1E800CA390B /* AppDelegate.swift */,
+				D3D813B81E364AA1005BD1EC /* SWXMLHash.swift */,
+				37C647F11E2CF1E800CA390B /* FirstViewController.swift */,
+				37C647F31E2CF1E900CA390B /* SecondViewController.swift */,
+				37C647F51E2CF1E900CA390B /* Main.storyboard */,
+				37C648251E2D703C00CA390B /* CustomCell.swift */,
+				37C648231E2D012600CA390B /* RemoteImageController.swift */,
+				37C647FA1E2CF1E900CA390B /* LaunchScreen.storyboard */,
+				37C647FD1E2CF1E900CA390B /* Info.plist */,
+				D34072181E2FED9800A380DD /* MyWebViewController.swift */,
+				D3D813B41E36392B005BD1EC /* PartiesController.swift */,
+				D3F6969C1E3663B9003CAF9B /* Event.swift */,
+				ABA4F9511E38B43100E509EF /* CustomCellParties.swift */,
+			);
+			path = "DAM-TD3";
+			sourceTree = "<group>";
+		};
+		37C648051E2CF1E900CA390B /* DAM-TD3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37C648061E2CF1E900CA390B /* DAM_TD3Tests.swift */,
+				37C648081E2CF1E900CA390B /* Info.plist */,
+			);
+			path = "DAM-TD3Tests";
+			sourceTree = "<group>";
+		};
+		37C648101E2CF1E900CA390B /* DAM-TD3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				37C648111E2CF1E900CA390B /* DAM_TD3UITests.swift */,
+				37C648131E2CF1E900CA390B /* Info.plist */,
+			);
+			path = "DAM-TD3UITests";
+			sourceTree = "<group>";
+		};
+		791E7B2305E4BA95FAD2B02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA68482B9B435ECAE79F7723 /* Pods_DAM_TD3.framework */,
+				571F51A064DF145A3247A3DF /* Pods_DAM_TD3Tests.framework */,
+				97356993C28B42E25FB88865 /* Pods_DAM_TD3UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F8547A766E40598E49F173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F8DBB01DD904C66E1AAA1 /* Pods-DAM-TD3.debug.xcconfig */,
+				72404C199D08D86B2F4E0CA0 /* Pods-DAM-TD3.release.xcconfig */,
+				16EEA2E268B3FF28B88CA41C /* Pods-DAM-TD3Tests.debug.xcconfig */,
+				5B25EBB1E1EA65B1F4880C04 /* Pods-DAM-TD3Tests.release.xcconfig */,
+				0794916C97EB7BBD9E13561B /* Pods-DAM-TD3UITests.debug.xcconfig */,
+				1C5422A5ED23D70BC237A3E1 /* Pods-DAM-TD3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37C647EB1E2CF1E800CA390B /* DAM-TD3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C648161E2CF1E900CA390B /* Build configuration list for PBXNativeTarget "DAM-TD3" */;
+			buildPhases = (
+				24F6677CFB1442B1099547F6 /* [CP] Check Pods Manifest.lock */,
+				37C647E81E2CF1E800CA390B /* Sources */,
+				37C647E91E2CF1E800CA390B /* Frameworks */,
+				37C647EA1E2CF1E800CA390B /* Resources */,
+				E272C4ED28BE73942517D3C0 /* [CP] Embed Pods Frameworks */,
+				E93E23010CC3679C2EE98882 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAM-TD3";
+			productName = "DAM-TD3";
+			productReference = 37C647EC1E2CF1E800CA390B /* DAM-TD3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37C648011E2CF1E900CA390B /* DAM-TD3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C648191E2CF1E900CA390B /* Build configuration list for PBXNativeTarget "DAM-TD3Tests" */;
+			buildPhases = (
+				B155298EE1AC33E57C92CFAE /* [CP] Check Pods Manifest.lock */,
+				37C647FE1E2CF1E900CA390B /* Sources */,
+				37C647FF1E2CF1E900CA390B /* Frameworks */,
+				37C648001E2CF1E900CA390B /* Resources */,
+				859B311A042F59DE0FE23D16 /* [CP] Embed Pods Frameworks */,
+				979E005D36BCF8AAB97D48E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C648041E2CF1E900CA390B /* PBXTargetDependency */,
+			);
+			name = "DAM-TD3Tests";
+			productName = "DAM-TD3Tests";
+			productReference = 37C648021E2CF1E900CA390B /* DAM-TD3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37C6480C1E2CF1E900CA390B /* DAM-TD3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C6481C1E2CF1E900CA390B /* Build configuration list for PBXNativeTarget "DAM-TD3UITests" */;
+			buildPhases = (
+				70829CEA08461E9CE507A3E2 /* [CP] Check Pods Manifest.lock */,
+				37C648091E2CF1E900CA390B /* Sources */,
+				37C6480A1E2CF1E900CA390B /* Frameworks */,
+				37C6480B1E2CF1E900CA390B /* Resources */,
+				EBCC6729C91E6213E7B333DF /* [CP] Embed Pods Frameworks */,
+				E4C31C95E70499F6FA7AD62A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C6480F1E2CF1E900CA390B /* PBXTargetDependency */,
+			);
+			name = "DAM-TD3UITests";
+			productName = "DAM-TD3UITests";
+			productReference = 37C6480D1E2CF1E900CA390B /* DAM-TD3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37C647E41E2CF1E800CA390B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ludivine;
+				TargetAttributes = {
+					37C647EB1E2CF1E800CA390B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					37C648011E2CF1E900CA390B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37C647EB1E2CF1E800CA390B;
+					};
+					37C6480C1E2CF1E900CA390B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37C647EB1E2CF1E800CA390B;
+					};
+				};
+			};
+			buildConfigurationList = 37C647E71E2CF1E800CA390B /* Build configuration list for PBXProject "DAM-TD3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37C647E31E2CF1E800CA390B;
+			productRefGroup = 37C647ED1E2CF1E800CA390B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37C647EB1E2CF1E800CA390B /* DAM-TD3 */,
+				37C648011E2CF1E900CA390B /* DAM-TD3Tests */,
+				37C6480C1E2CF1E900CA390B /* DAM-TD3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37C647EA1E2CF1E800CA390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C647FC1E2CF1E900CA390B /* LaunchScreen.storyboard in Resources */,
+				ABEB128D1E32159E00CF61E7 /* Assets.xcassets in Resources */,
+				37C647F71E2CF1E900CA390B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C648001E2CF1E900CA390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C6480B1E2CF1E900CA390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F6677CFB1442B1099547F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70829CEA08461E9CE507A3E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		859B311A042F59DE0FE23D16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAM-TD3Tests/Pods-DAM-TD3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979E005D36BCF8AAB97D48E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAM-TD3Tests/Pods-DAM-TD3Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B155298EE1AC33E57C92CFAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E272C4ED28BE73942517D3C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAM-TD3/Pods-DAM-TD3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C31C95E70499F6FA7AD62A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAM-TD3UITests/Pods-DAM-TD3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93E23010CC3679C2EE98882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAM-TD3/Pods-DAM-TD3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCC6729C91E6213E7B333DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DAM-TD3UITests/Pods-DAM-TD3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C647E81E2CF1E800CA390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C648241E2D012600CA390B /* RemoteImageController.swift in Sources */,
+				D3D813B51E36392B005BD1EC /* PartiesController.swift in Sources */,
+				D3D813B91E364AA1005BD1EC /* SWXMLHash.swift in Sources */,
+				37C647F41E2CF1E900CA390B /* SecondViewController.swift in Sources */,
+				D3F6969D1E3663B9003CAF9B /* Event.swift in Sources */,
+				37C647F01E2CF1E800CA390B /* AppDelegate.swift in Sources */,
+				ABA4F9521E38B43100E509EF /* CustomCellParties.swift in Sources */,
+				37C647F21E2CF1E800CA390B /* FirstViewController.swift in Sources */,
+				37C648261E2D703C00CA390B /* CustomCell.swift in Sources */,
+				37C648221E2CFA3600CA390B /* WebsitesTableViewController.swift in Sources */,
+				D34072191E2FED9800A380DD /* MyWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C647FE1E2CF1E900CA390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C648071E2CF1E900CA390B /* DAM_TD3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C648091E2CF1E900CA390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C648121E2CF1E900CA390B /* DAM_TD3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37C648041E2CF1E900CA390B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C647EB1E2CF1E800CA390B /* DAM-TD3 */;
+			targetProxy = 37C648031E2CF1E900CA390B /* PBXContainerItemProxy */;
+		};
+		37C6480F1E2CF1E900CA390B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C647EB1E2CF1E800CA390B /* DAM-TD3 */;
+			targetProxy = 37C6480E1E2CF1E900CA390B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37C647F51E2CF1E900CA390B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37C647F61E2CF1E900CA390B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37C647FA1E2CF1E900CA390B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37C647FB1E2CF1E900CA390B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37C648141E2CF1E900CA390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37C648151E2CF1E900CA390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C648171E2CF1E900CA390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5F8DBB01DD904C66E1AAA1 /* Pods-DAM-TD3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DAM-TD3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ludivine.DAM-TD3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		37C648181E2CF1E900CA390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72404C199D08D86B2F4E0CA0 /* Pods-DAM-TD3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DAM-TD3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ludivine.DAM-TD3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		37C6481A1E2CF1E900CA390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EEA2E268B3FF28B88CA41C /* Pods-DAM-TD3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DAM-TD3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ludivine.DAM-TD3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAM-TD3.app/DAM-TD3";
+			};
+			name = Debug;
+		};
+		37C6481B1E2CF1E900CA390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B25EBB1E1EA65B1F4880C04 /* Pods-DAM-TD3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DAM-TD3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ludivine.DAM-TD3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAM-TD3.app/DAM-TD3";
+			};
+			name = Release;
+		};
+		37C6481D1E2CF1E900CA390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0794916C97EB7BBD9E13561B /* Pods-DAM-TD3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DAM-TD3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ludivine.DAM-TD3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DAM-TD3";
+			};
+			name = Debug;
+		};
+		37C6481E1E2CF1E900CA390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5422A5ED23D70BC237A3E1 /* Pods-DAM-TD3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DAM-TD3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ludivine.DAM-TD3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DAM-TD3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37C647E71E2CF1E800CA390B /* Build configuration list for PBXProject "DAM-TD3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C648141E2CF1E900CA390B /* Debug */,
+				37C648151E2CF1E900CA390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C648161E2CF1E900CA390B /* Build configuration list for PBXNativeTarget "DAM-TD3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C648171E2CF1E900CA390B /* Debug */,
+				37C648181E2CF1E900CA390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C648191E2CF1E900CA390B /* Build configuration list for PBXNativeTarget "DAM-TD3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C6481A1E2CF1E900CA390B /* Debug */,
+				37C6481B1E2CF1E900CA390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C6481C1E2CF1E900CA390B /* Build configuration list for PBXNativeTarget "DAM-TD3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C6481D1E2CF1E900CA390B /* Debug */,
+				37C6481E1E2CF1E900CA390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37C647E41E2CF1E800CA390B /* Project object */;
+}
