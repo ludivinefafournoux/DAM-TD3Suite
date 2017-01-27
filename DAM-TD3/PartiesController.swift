@@ -48,7 +48,7 @@ class PartiesController: UITableViewController {
         
         
         
-        // récupération jon
+        // récupération json
         if let url = URL(string: "http://sealounge.lanoosphere.com/seadata_en.xml") {
             do {
                 let contenu = try String(contentsOf: url)

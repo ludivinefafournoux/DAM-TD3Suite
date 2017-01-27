@@ -278,7 +278,7 @@
                                                 <constraint firstAttribute="height" constant="36" id="HOd-iv-lJz"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                             <variation key="heightClass=regular">
                                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
@@ -297,7 +297,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.71930188233693015" green="0.27047079126295664" blue="0.8115878807106599" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.72934001684188843" green="0.10110954195261002" blue="0.52203792333602905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="LTn-bD-g2r" firstAttribute="leading" secondItem="rzB-Kp-osR" secondAttribute="leading" constant="18" id="M0z-TG-ZZF"/>
                                                 <constraint firstAttribute="trailing" secondItem="LTn-bD-g2r" secondAttribute="trailing" constant="17" id="i19-k6-Awk"/>
@@ -317,9 +317,12 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="0.99628012543955935" green="0.96812956844813658" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.69731738974738322" green="0.74315672675391586" blue="0.95675364847715738" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.64139217138290405" green="0.75949317216873169" blue="0.84279268980026245" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="F5O-4t-EYt" secondAttribute="bottom" constant="32" id="2xk-TS-pDv"/>
                                                 <constraint firstItem="F5O-4t-EYt" firstAttribute="leading" secondItem="Q95-pX-C3L" secondAttribute="leading" constant="38" id="GPG-Tw-WYa"/>
